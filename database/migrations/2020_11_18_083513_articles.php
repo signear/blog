@@ -15,9 +15,14 @@ class Articles extends Migration
     {
         Schema::create('articles', function (Blueprint $table) {
             $table->id();
-            $table->inte
+            $table->bigInteger('category_id')->unsigned();
             $table->string('title');
+            $table->string('image');
+            $table->longText('content');
+            $table->integer('hit')->default(0);
+            $table->string('slug');
             $table->timestamps();
+            $table->foreign('category_id')->references('id')->on('categories');
         });
     }
 

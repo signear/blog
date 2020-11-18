@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\Front\Homepage;
+use App\Models\Article;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,4 +14,11 @@ use \App\Http\Controllers\Front\Homepage;
 |
 */
 
+Route::get('/ornekveriolustur', function () {
+    Article::factory()->count(5)->create();
+    return "ok";
+});
+
 Route::get('/', [Homepage::class, 'index']);
+
+Route::get('/{category}/{slug}',[Homepage::class,'singlePost'])->name('singlePost');

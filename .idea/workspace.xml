@@ -3,8 +3,45 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88aa8b2-b854-46be-bca2-8a5358712310" name="Default Changelist" comment="" />
+    <list default="true" id="d88aa8b2-b854-46be-bca2-8a5358712310" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/ArticleFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/tr/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/tr/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/tr/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/tr/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/front/singlepost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/Homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/Homepage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_18_083513_articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_18_083513_articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/homepage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/widgets/categoryWidget.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/widgets/categoryWidget.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +52,9 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -136,20 +176,24 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kO7hi9ZbxnnIkVSpDjEqCQLL90" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/front" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\blog\resources\views\front" />
       <recent name="C:\laragon\www\blog\public" />
     </key>
   </component>
@@ -169,18 +213,38 @@
       <updated>1605559905952</updated>
       <workItem from="1605559907099" duration="12181000" />
       <workItem from="1605655304621" duration="2045000" />
-      <workItem from="1605688435817" duration="303000" />
+      <workItem from="1605688435817" duration="10813000" />
+      <workItem from="1605738798760" duration="3471000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1055" y="611" key="ComposerInitDialogKey" timestamp="1605653491141">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1055" y="611" key="ComposerInitDialogKey/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1605653491141" />
+    <state x="1157" y="597" key="Github.ShareDialog" timestamp="1605688879682">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1157" y="597" key="Github.ShareDialog/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1605688879682" />
+    <state x="1075" y="404" key="Github.UntrackedFilesDialog" timestamp="1605688888751">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1075" y="404" key="Github.UntrackedFilesDialog/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1605688888751" />
     <state width="2515" height="400" key="GridCell.Tab.0.bottom" timestamp="1605655291537">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -197,13 +261,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2515" height="400" key="GridCell.Tab.0.right/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1605655291537" />
-    <state x="780" y="344" key="SettingsEditor" timestamp="1605656999010">
+    <state x="780" y="344" key="SettingsEditor" timestamp="1605688812093">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="780" y="344" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1605656999010" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605653568908">
+    <state x="780" y="344" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1605688812093" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1605688753919">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1605653568908" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-2560.0.2560.1440@0.0.2560.1400" timestamp="1605688753919" />
   </component>
 </project>

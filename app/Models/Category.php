@@ -24,10 +24,15 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|Category whereSlug($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Category whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property-read \App\Models\Article $article
  */
 class Category extends Model
 {
     use HasFactory;
 
     protected $table = 'categories';
+
+    public function articleCount(){
+        return $this->hasMany('App\Models\Article','category_id','id')->count();
+    }
 }
